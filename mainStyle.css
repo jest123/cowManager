@@ -1,0 +1,13 @@
+#cowButton{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: #45c045;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 4cm;
+    height: 1cm;
+}
+body{
+    background-color:#147c2e;
+}
