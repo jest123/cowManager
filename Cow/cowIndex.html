@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Krave</title>
+        <script src = "cowScript.js"></script>
+        <script src = "jsonBackupScript.js"></script>
+        <link rel="stylesheet" type="text/css" href="cowStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    <body onload="SetVar()">
+        <button id = addButton onclick="ShowFunc()">Dodaj</button>
+        <input id="searchBar" value="Najdi..." oninput="findFunc()">
+        <input type = FILE>
+        <button type="submit" id = submitButton onclick="jsonReader()">Naloži podatke</button>
+        <div>
+            <a id = "container">Prenesi si podatke!</a>
+        </div>
+        <div id = "addWindow">
+            <p>Identifikacijska številka</p>
+            <input id = "Identifikacijska">
+            <p>Datum rojstva</p>
+            <input id="BirthDateInput"><br>
+            <p>Spol</p>
+            <select id = "GenderInput">
+                <option value="Neznan"></option>
+                <option value="M">M</option>
+                <option value="Ž">Ž</option>
+            </select>
+            <br>
+            <button id = "Confirm" onclick="addFunc()">Potrdi</button>
+        </div>
+        <div id = "cowWindow">
+            <strong id="Identitytext"></strong>
+            <p id = Birth></p>
+            <p id = "Gender">M</p>
+        </div>
+    </body>
+</html>

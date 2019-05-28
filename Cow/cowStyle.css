@@ -1,0 +1,114 @@
+#addButton{
+    height: 1cm;
+    width: 3cm;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #1dad41;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#addWindow{
+    height: 15cm;
+    width: 10cm;
+    z-index: 1;
+    margin: 5px;
+    border-radius: 1%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color:#1dad41;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#cowWindow{
+    border: 3px;
+    border-style: solid;
+    height: 3cm;
+    width: 8cm;
+    display: none;
+    z-index: -1;
+     opacity: 1;
+     font-family: 'Oswald', sans-serif;
+     margin: 5px;
+     border: 0px;
+     border-radius: 5%;
+     box-shadow: 2px 2px 2px rgb(0, 0, 0);
+     background-color: #1dad41;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+}
+#Identifikacijska{
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #45c045;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#BirthDateInput{
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #45c045;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select{
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+    width: 25px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #45c045;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+#Confirm{
+    height: 1cm;
+    width: 3cm;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #45c045;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#searchBar{
+    border-bottom-width: 1;
+    height: 1cm;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    border-bottom-style: solid;
+    border-right-style:none;
+    border-left-style:none;
+    border-top-style:none;
+    -moz-appearance: none;
+    -webkit-appearance:none;
+    background-color: #1dad41;
+}
+#searchButton{
+    background-color: #1dad41;
+    height: 1cm;
+    width: 1cm;
+    border: none;
+}
+#container{
+    background-color:#1dad41;
+    color: black;
+}
+body{
+    background: #147c2e;
+}
