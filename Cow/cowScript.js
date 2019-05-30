@@ -4,7 +4,6 @@ var isShown = false;
         var addWindow = document.getElementById("addWindow");
         addWindow.style.display = "none"; 
         PrintFunc();
-        jsonDownload();
     }
   
         function ShowFunc(){

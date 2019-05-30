@@ -1,0 +1,33 @@
+button{
+    height: 1cm;
+    width: 3cm;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #1dad41;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+a{
+    height: 2.5cm;
+    width: 3cm;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: black;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #1dad41;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+body{
+    background-color: #1dad41;
+
+}

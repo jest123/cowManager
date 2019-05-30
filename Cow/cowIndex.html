@@ -3,18 +3,13 @@
     <head>
         <title>Krave</title>
         <script src = "cowScript.js"></script>
-        <script src = "jsonBackupScript.js"></script>
         <link rel="stylesheet" type="text/css" href="cowStyle.css">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     </head>
     <body onload="SetVar()">
         <button id = addButton onclick="ShowFunc()">Dodaj</button>
         <input id="searchBar" value="Najdi..." oninput="findFunc()">
-        <input type = FILE>
-        <button type="submit" id = submitButton onclick="jsonReader()">Naloži podatke</button>
-        <div>
-            <a id = "container">Prenesi si podatke!</a>
-        </div>
+        <button onclick="window.location = 'JSONBackupIndex.html' " id="JSON">Prenesi si podatke</button>
         <div id = "addWindow">
             <p>Identifikacijska številka</p>
             <input id = "Identifikacijska">
